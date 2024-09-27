@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        $colore = "brown";
+        $nome = "Gabriel";
+        echo "<h1 style='color: $colore'> $nome </h1>"
+    ?>
 </body>
 </html>
